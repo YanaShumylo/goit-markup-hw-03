@@ -29,8 +29,7 @@ display: flex;
 justify-content: space-between;
 flex-wrap: nowrap;
 align-items: center;
-padding-top: 24px;
-padding-bottom: 24px;
+padding: 0 15px;
 }
 
 .nav {display: flex;
@@ -53,6 +52,8 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 display: flex;
 gap: 40px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .link-nav:hover {color: #404bbf;}
@@ -96,7 +97,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #4D5AE5; 
 cursor: pointer; color: #ffffff;
-min-width: 169px
+min-width: 169px;
 height: 56px;
 display: block;
 text-align: center;
@@ -106,8 +107,7 @@ border: none;
 }
 .button:hover, .button:focus {background-color: #404BBF;}
 
-.list-feature {padding-top: 120px;
-padding-bottom: 120px;}
+.feature {padding: 120px 0;}
 
 .visually-hidden {
   position: absolute;
