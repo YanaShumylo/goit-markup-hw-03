@@ -269,7 +269,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
-margin-top: 16px;
 }
 .footer-logo {
 font-family: "Raleway", sans-serif;
@@ -280,5 +279,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block;
+margin-bottom: 16px;
 }
+
 .footer-span-logo {color: #f4f4fd;}
